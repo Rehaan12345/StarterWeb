@@ -1,0 +1,36 @@
+/* 
+Things to add in CSS:
+- Margins for every text.html file.
+- Format the unordered list to be center-aligned in 2 - variables.html and 4 - string.html.
+- Add boxes and a greyed background / a different colored background for all the <code></code> snippets.
+- A Navigation Bar (DONE)
+*/ 
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+.main nav {
+    position: fixed;
+    font-family: verdana, sans-serif;
+    font-size: 2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.main-nav li { float: left; }
+.main-nav li a {
+    /* position: fixed; */
+    display: block;
+    color: #a52222;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
